@@ -1,8 +1,15 @@
 #include "binary_trees.h"
+
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <limits.h>
 /**
  * aux_sort - create the tree using the half element of the array
  * @parent: parent of the node to create
  * @array: sorted array
+ * Email: brunookoth44@gmail.com
  * @begin: position where the array starts
  * @last: position where the array ends
  * Return: tree created

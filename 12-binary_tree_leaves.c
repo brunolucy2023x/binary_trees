@@ -1,8 +1,15 @@
 #include "binary_trees.h"
+
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <limits.h>
 /**
  * binary_tree_leaves - function that returns the number of leaves in a tree
  * @tree: tree to check
  * Return: number of leaves
+ * Email: brunookoth44@gmail.com
  */
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {

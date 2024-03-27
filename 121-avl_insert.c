@@ -1,5 +1,10 @@
 #include "binary_trees.h"
 
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <limits.h>
 /**
  * r_insert_node - node value instertion in a AVL.
  * @tree: type **pointer of root node of the AVL tree struct.
@@ -7,6 +12,7 @@
  * @new: type**pointer left or right insertion.
  * @nval: insertion value of the AVL.
  * Return: pointer to the new root after insertion otherwise NULL
+ * Email: brunookoth44@gmail.com
  */
 avl_t *r_insert_node(avl_t **tree, avl_t *parent, avl_t **new, int nval)
 {
