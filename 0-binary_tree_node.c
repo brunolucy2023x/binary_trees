@@ -1,6 +1,15 @@
 #include "binary_trees.h"
 
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <limits.h>
+
+
 /**
+ * Name:  Bruno Owino
+ * Email: brunookoth44@gmail.com
  * binary_tree_node - Create a binary node
  * @parent: node parent
  * @value: Value of the node
