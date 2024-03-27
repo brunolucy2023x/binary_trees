@@ -1,9 +1,16 @@
 #include "binary_trees.h"
+
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <limits.h>
 /**
  * bst_insert - insert nodes in order to create a BST tree
  * @tree: tree to create with type BST
  * @value: value of node to insert
  * Return: BST tree
+ * Email: brunookoth44@gmail.com
  */
 bst_t *bst_insert(bst_t **tree, int value)
 {

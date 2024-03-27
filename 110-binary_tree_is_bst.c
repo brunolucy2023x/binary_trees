@@ -1,10 +1,17 @@
 #include "binary_trees.h"
+
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <limits.h>
 /**
  * check_sub_tree_Left - check if all nodes are smaller than
  * the root specified
  * @node: node in the tree to verify condition
  * @max: value to compare
  * Return: 1 if all nodes are smaller or equal or 0 if not
+ * Email: brunookoth44@gmail.com
  */
 int check_sub_tree_Left(const binary_tree_t *node, int max)
 {
