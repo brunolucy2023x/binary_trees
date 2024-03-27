@@ -1,4 +1,10 @@
 #include "binary_trees.h"
+
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <limits.h>
 size_t bts(const binary_tree_t *tree);
 heap_t *heap_nf(heap_t *root, size_t number);
 heap_t *heap_r(heap_t *new, heap_t *parent);
@@ -9,6 +15,7 @@ heap_t *heap_r(heap_t *new, heap_t *parent);
  * @tree: double pointer to root
  * @value: the value to store
  * Return: pointer to the created node
+ * Email: brunookoth44@gmail.com
  */
 heap_t *heap_insert(heap_t **tree, int value)
 {

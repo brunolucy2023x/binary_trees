@@ -1,9 +1,16 @@
 #include "binary_trees.h"
+
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <limits.h>
 /**
  * binary_tree_is_full - function that says if a tree is full or not
  * a tree is full if it has tow or none children
  * @tree: tree to check
  * Return: 1 if it is a full 0 if not
+ * Email: brunookoth44@gmail.com
  */
 int binary_tree_is_full(const binary_tree_t *tree)
 {
