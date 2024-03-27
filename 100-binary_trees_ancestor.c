@@ -5,7 +5,7 @@
  * @first: First node
  * @second: Second node
  * Return: the node of the ancestor
- * Return: the node of the ancestor
+ * Email: brunookoth44@gmail.com
  */
 
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
