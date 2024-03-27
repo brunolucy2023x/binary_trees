@@ -1,8 +1,15 @@
 #include "binary_trees.h"
+
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <limits.h>
 /**
  * new_node - Function that creates a new_node in a linked_list
  * @node: Type pointer of node to be created
  * Return: the node created
+ * Email: brunookoth44@gmail.com
  */
 link_t *new_node(binary_tree_t *node)
 {
