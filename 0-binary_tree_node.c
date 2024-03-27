@@ -8,8 +8,8 @@
 
 
 /**
- * Name:  Bruno Owino
- * Email: brunookoth44@gmail.com
+ * @name:  Bruno Owino
+ * @email: brunookoth44@gmail.com
  * binary_tree_node - Create a binary node
  * @parent: node parent
  * @value: Value of the node
